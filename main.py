@@ -33,7 +33,7 @@ def main():
 
 
     response = client_vision.label(image=image)
-    labels = response.logo_annotations
+    labels = response.label_annotations
     print('Labels:')
     
     synthesis_input = ''
